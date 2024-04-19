@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://csqhprx5n6egk"
-path="res://.godot/imported/char_1_big.png-e9e3b852057bbb5901cf94bae6d33fb0.ctex"
+uid="uid://jsh2epxy6t21"
+path="res://.godot/imported/right.png-ee6c0caa780482dc7f1565984d79af53.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/character/char_1_big.png"
-dest_files=["res://.godot/imported/char_1_big.png-e9e3b852057bbb5901cf94bae6d33fb0.ctex"]
+source_file="res://Хакатон 2/buttons/right.png"
+dest_files=["res://.godot/imported/right.png-ee6c0caa780482dc7f1565984d79af53.ctex"]
 
 [params]
 

@@ -1,8 +1,9 @@
-[gd_scene load_steps=10 format=3 uid="uid://drksku8aimib6"]
+[gd_scene load_steps=11 format=3 uid="uid://drksku8aimib6"]
 
 [ext_resource type="Texture2D" uid="uid://ogv31446bog2" path="res://assets/img/environment/tileset.png" id="1_7q4d6"]
 [ext_resource type="Texture2D" uid="uid://cfgvyp8bfd4ul" path="res://assets/img/environment/tileset_v2.png" id="2_opldl"]
 [ext_resource type="Texture2D" uid="uid://brvnytayoos0x" path="res://assets/img/environment/tileset_v2_scale.png" id="3_dtcv2"]
+[ext_resource type="Texture2D" uid="uid://ccp8fn5ev6wuj" path="res://assets/img/character/char_1_idle.png" id="4_sogls"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cn3nq"]
 texture = ExtResource("1_7q4d6")
@@ -4642,3 +4643,8 @@ format = 2
 [node name="TileMap3" type="TileMap" parent="Tiles"]
 tile_set = SubResource("TileSet_subep")
 format = 2
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+texture = ExtResource("4_sogls")
