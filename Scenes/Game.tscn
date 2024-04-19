@@ -123,6 +123,9 @@ format = 2
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
 position = Vector2(503, -174)
 script = ExtResource("4_how1w")
+Speed = 800
+JumpVelocity = 690
+gravity = 680
 metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
